@@ -28,15 +28,15 @@ There are 3 ways to run JS
 
 # If you are shure that value won't change it's recommended to use const
 
-#var
+# var
 var is used in older versions of JS
 ex: var a
 
-#let
+# let
 let is new way to declare variables starting in ES6 (ES2015)
 ex: let x
 
-#const
+# const
 the value of variable is constant
 ex: const y
 
@@ -44,7 +44,7 @@ there are 2 data types
 1. primitives
 2. objects (non-primitives)
 
-#primitives
+# primitives
 1. number let x = 5
 2. string let s = "hello"
 3. boolean let tr = true
@@ -127,16 +127,16 @@ for (let i = 0; i < 5; i++){
     console.log(i);
 }
 
-#loop while
+# loop while
 let i = 0
 while (i < 3) {
     console.log(i);
     i++;
 }
 
-#functions
+# functions
 
-#declaration
+# declaration
 function sum (let a, let b) {
     return a + b;
 }
@@ -144,23 +144,23 @@ function sum (let a, let b) {
 console.log(34, 5);
 
 
-#expression
+# expression
 
-#arrow
+# arrow
 let sum (let a, let b) => {
     return a + b;
 }
 
 console.log(34, 5);
 
-#anonymus
+# anonymus
 let sum = function (let a, let b) {
     return a + b;
 }
 
 console.log(3 ,5);
 
-#IIFE
+# IIFE
 var x = 5;
 (function (a, b)) {
     console.log(a + b);
